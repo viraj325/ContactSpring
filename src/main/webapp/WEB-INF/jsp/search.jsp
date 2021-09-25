@@ -17,6 +17,6 @@
     </style>
 </head>
 <body>
-<h1>${inputID}</h1>
+<h1>${response}</h1>
 </body>
 </html>

@@ -6,15 +6,25 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@taglib uri="http://www.springframework.org/tags" prefix="c"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <html>
 <head>
     <title>All Contacts</title>
+    <style>
+
+    </style>
 </head>
 <body>
-<h3>${response}</h3>
+<c:if test="${not empty response}">
+    <c:forEach items="${response}" var="contact">
+        <h2>${contact.name}</h2>
+        <h4>${contact.phone}</h4>
+        <h4>${contact.email}</h4>
+        <h4>${contact.address}</h4>
+    </c:forEach>
+</c:if>
 </body>
 </html>
 
