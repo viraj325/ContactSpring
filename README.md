@@ -13,7 +13,7 @@ Search Contacts
 # Install ContactSpring
 
 For ContactSpring to work correctly make sure to have Tomcat Server downloaded and started, recommended through IntelliJ.
-
+You can use the Github CLI - "gh repo clone viraj325/ContactSpring" to clone the project or simply just download the zip.
 
 # How does it work?
 The application runs on localhost with api endpoints listed below.
