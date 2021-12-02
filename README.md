@@ -1,8 +1,8 @@
 # ContactSpring Description
 This is a Contact Management application written in Java/HTML/CSS using Spring Framework utilizing MVC pattern.
 This application has CRUD REST APIs in which users can access on Localhost.
-When using the GET request, the output will be in HTML with CSS styling and can be accessed using Chrome browser
-For POST/PUT/DELETE, users will need Postman for POST, PUT, DELETE requests.
+When using the GET request, the output will be in HTML with CSS styling and can be accessed using Chrome browser.
+Users will need Postman for POST, PUT, DELETE requests.
 
 Intro
 ![Snapshot1](https://user-images.githubusercontent.com/37918393/135691650-150b9627-fbe0-495a-b2ee-8bf56f365cbd.png)
